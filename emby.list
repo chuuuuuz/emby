@@ -26,9 +26,7 @@ DOMAIN-SUFFIX,jp2.odysseyplus.site
 DOMAIN-SUFFIX,ru.odysseyplus.site
 DOMAIN-SUFFIX,cf.misakaf.org
 DOMAIN-SUFFIX,cf2.misakaf.org
-DOMAIN-SUFFIX,hk.misakaf.org
 DOMAIN-SUFFIX,cf3.misakaf.org
-DOMAIN-SUFFIX,4837.misakaf.org
 DOMAIN-SUFFIX,aaa.ax
 DOMAIN-SUFFIX,emby.plusmedia.site
 DOMAIN-SUFFIX,emby-cf.plusmedia.site
@@ -44,5 +42,12 @@ DOMAIN-SUFFIX,jp.pololine.ml
 DOMAIN-SUFFIX,cmi.pololine.ml
 DOMAIN-SUFFIX,sp.pololine.ml
 DOMAIN-SUFFIX,cc.ccemby.tk
+DOMAIN-SUFFIX,misty.ltd
+DOMAIN-SUFFIX,emby.texon.one
+DOMAIN-SUFFIX,21s.casacam.net
+DOMAIN-SUFFIX,embyplus.org
+DOMAIN-SUFFIX,emby.lzlz.cc
+DOMAIN-SUFFIX,embyplus.org
+DOMAIN-SUFFIX,tagemby.embylianmeng.com
 DOMAIN-SUFFIX,direct.nebula-emby.com
 IP-CIDR,203.198.94.90/25,no-resolve
