@@ -1,58 +1,181 @@
-# NAME: Emby
-DOMAIN-SUFFIX,emby.flowercloud.yt
-DOMAIN-SUFFIX,emby.prprcloud.com
-DOMAIN-SUFFIX,prpr.kyarucloud.moe
-DOMAIN-SUFFIX,emby.otakudrive.life
-DOMAIN-SUFFIX,emby2.otakudrive.life
-DOMAIN-SUFFIX,jmsooo.com
-DOMAIN-SUFFIX,cf.jmsooo.com
-DOMAIN-SUFFIX,ha.jmsooo.com
-DOMAIN-SUFFIX,sg1.jmsooo.com
-DOMAIN-SUFFIX,sg2.jmsooo.com
-DOMAIN-SUFFIX,usa1.jmsooo.com
-DOMAIN-SUFFIX,usa2.jmsooo.com
-DOMAIN-SUFFIX,pub1.emby.wtf
-DOMAIN-SUFFIX,pub2.emby.wtf
-DOMAIN-SUFFIX,pub3.emby.wtf
-DOMAIN-SUFFIX,pub4.emby.wtf
-DOMAIN-SUFFIX,misty.ltd
-DOMAIN-SUFFIX,pornemby.club
-DOMAIN-SUFFIX,cf.odysseyplus.site
-DOMAIN-SUFFIX,sg.odysseyplus.site
-DOMAIN-SUFFIX,us.odysseyplus.site
-DOMAIN-SUFFIX,kr.odysseyplus.site
-DOMAIN-SUFFIX,jp.odysseyplus.site
-DOMAIN-SUFFIX,jp2.odysseyplus.site
-DOMAIN-SUFFIX,ru.odysseyplus.site
-DOMAIN-SUFFIX,cf.misakaf.org
-DOMAIN-SUFFIX,cf2.misakaf.org
-DOMAIN-SUFFIX,cf3.misakaf.org
-DOMAIN-SUFFIX,aaa.ax
-DOMAIN-SUFFIX,emby.plusmedia.site
-DOMAIN-SUFFIX,emby-cf.plusmedia.site
-DOMAIN-SUFFIX,emby.xeton.dev
-DOMAIN-SUFFIX,jellyfin.xeton.dev
-DOMAIN-SUFFIX,movie.xeton.dev
-DOMAIN-SUFFIX,servers.xeton.dev
-DOMAIN-SUFFIX,203.198.94.90
-DOMAIN-SUFFIX,df.poloemby.xyz
-DOMAIN-SUFFIX,cu.poloemby.xyz
-DOMAIN-SUFFIX,happy.poloemby.xyz
-DOMAIN-SUFFIX,jp.pololine.ml
-DOMAIN-SUFFIX,cmi.pololine.ml
-DOMAIN-SUFFIX,sp.pololine.ml
-DOMAIN-SUFFIX,cc.ccemby.tk
-DOMAIN-SUFFIX,misty.ltd
-DOMAIN-SUFFIX,emby.texon.one
-DOMAIN-SUFFIX,21s.casacam.net
-DOMAIN-SUFFIX,embyplus.org
-DOMAIN-SUFFIX,emby.lzlz.cc
-DOMAIN-SUFFIX,embyplus.org
-DOMAIN-SUFFIX,tagemby.embylianmeng.com
-DOMAIN-SUFFIX,s2.amazing910.top
-DOMAIN-SUFFIX,cf.studyfun.live
-DOMAIN-SUFFIX,zz.studyfun.live
-DOMAIN-SUFFIX,4837.studyfun.live
-DOMAIN-SUFFIX,9929.studyfun.live
-DOMAIN-SUFFIX,av.happyav.eu.org
-IP-CIDR,203.198.94.90/25,no-resolve
+# 内容：Emby Proxy
+# 比较全面的各家 Emby 地址
+payload:
+  - DOMAIN-KEYWORD,emby
+  - DOMAIN-KEYWORD,odysseyplus
+  - DOMAIN-KEYWORD,emby.wtf
+  - DOMAIN-KEYWORD,jmaooo.com
+  - DOMAIN-KEYWORD,xeton.dev
+  - DOMAIN-SUFFIX,emby.nexitally.com
+  - DOMAIN-SUFFIX,emby.immtel.com
+  - DOMAIN-SUFFIX,line.emby.men
+  - DOMAIN-SUFFIX,emby.cjpc.xyz
+  - DOMAIN-SUFFIX,emby.paoche.ooo
+  - DOMAIN-SUFFIX,emby.flowercloud.yt
+  - DOMAIN-SUFFIX,emby.maying.club
+  - DOMAIN-SUFFIX,emby.mdss.cloud
+  - DOMAIN-SUFFIX,emby.ytoo.li
+  - DOMAIN-SUFFIX,embyserver.ga
+  - DOMAIN-SUFFIX,emby.prprcloud.com
+  - DOMAIN-SUFFIX,emby.nyancat.net
+  - DOMAIN-SUFFIX,emby.plusmedia.site
+  - DOMAIN-SUFFIX,emby-cf.plusmedia.site 
+  - DOMAIN-SUFFIX,emby.xeton.dev
+  - DOMAIN-SUFFIX,jellyfin.xeton.dev
+  - DOMAIN-SUFFIX,movie.xeton.dev
+  - DOMAIN-SUFFIX,servers.xeton.dev
+  - DOMAIN-SUFFIX,emby.ok.edu.hk
+  - DOMAIN-SUFFIX,emby.neko.edu.rs 
+  - DOMAIN-SUFFIX,pub1.emby.wtf
+  - DOMAIN-SUFFIX,pub1cf.emby.wtf
+  - DOMAIN-SUFFIX,pub2.emby.wtf
+  - DOMAIN-SUFFIX,pub2cf.emby.wtf
+  - DOMAIN-SUFFIX,pub3.emby.wtf
+  - DOMAIN-SUFFIX,pub3cf.emby.wtf
+  - DOMAIN-SUFFIX,agahk1.jmsooo.com
+  - DOMAIN-SUFFIX,agasg1.jmsooo.com
+  - DOMAIN-SUFFIX,agajp1.jmsooo.com
+  - DOMAIN-SUFFIX,aws.jmsooo.com
+  - DOMAIN-SUFFIX,ntt1.jmsooo.com
+  - DOMAIN-SUFFIX,hinet.jmsooo.com
+  - DOMAIN-SUFFIX,cf1.jmsooo.com
+  - DOMAIN-SUFFIX,pornemby.club
+  - DOMAIN-SUFFIX,hk.pornemby.club
+  - DOMAIN-SUFFIX,us.pornemby.club
+  - DOMAIN-SUFFIX,emby.wtf
+  - DOMAIN-SUFFIX,plusmedia.site
+  - DOMAIN-SUFFIX,mickeycloud.com
+  - DOMAIN-SUFFIX,emby.mcwy.me
+  - DOMAIN-SUFFIX,emby.neko.edu.rs
+  - DOMAIN-SUFFIX,emby.ok.edu.hk
+  - DOMAIN-SUFFIX,emby.maying.club
+  - DOMAIN-SUFFIX,emby.nexitally.com
+  - DOMAIN-SUFFIX,pub1.emby.wtf
+  - DOMAIN-SUFFIX,pub1.emby.wtf 
+  - DOMAIN-SUFFIX,pub1back1.emby.wtf
+  - DOMAIN-SUFFIX,pub1back2.emby.wtf
+  - DOMAIN-SUFFIX,pub1back3.emby.wtf
+  - DOMAIN-SUFFIX,pub1back5.emby.wtf
+  - DOMAIN-SUFFIX,pub1back4.emby.wtf
+  - DOMAIN-SUFFIX,pub1back6.emby.wtf
+  - DOMAIN-SUFFIX,pub1back7.emby.wtf
+  - DOMAIN-SUFFIX,pub1back1.emby.wtf
+  - DOMAIN-SUFFIX,pub1back2.emby.wtf
+  - DOMAIN-SUFFIX,pub1back3.emby.wtf
+  - DOMAIN-SUFFIX,pub1back4.emby.wtf
+  - DOMAIN-SUFFIX,pub1back5.emby.wtf
+  - DOMAIN-SUFFIX,pub1back6.emby.wtf
+  - DOMAIN-SUFFIX,pub1back7.emby.wtf
+  - DOMAIN-SUFFIX,pub1jp.emby.wtf
+  - DOMAIN-SUFFIX,pub1jp.emby.wtf
+  - DOMAIN-SUFFIX,pub1ntt.emby.wtf
+  - DOMAIN-SUFFIX,pub1sgp.emby.wtf
+  - DOMAIN-SUFFIX,pub1cf.emby.wtf
+  - DOMAIN-SUFFIX,pub2.emby.wtf
+  - DOMAIN-SUFFIX,pub2.emby.wtf
+  - DOMAIN-SUFFIX,pub2back1.emby.wtf
+  - DOMAIN-SUFFIX,pub2back2.emby.wtf
+  - DOMAIN-SUFFIX,pub2back3.emby.wtf
+  - DOMAIN-SUFFIX,pub2back4.emby.wtf
+  - DOMAIN-SUFFIX,pub2back5.emby.wtf
+  - DOMAIN-SUFFIX,pub2back6.emby.wtf
+  - DOMAIN-SUFFIX,pub2back7.emby.wtf
+  - DOMAIN-SUFFIX,pub2back1.emby.wtf
+  - DOMAIN-SUFFIX,pub2back2.emby.wtf
+  - DOMAIN-SUFFIX,pub2back3.emby.wtf
+  - DOMAIN-SUFFIX,pub2back4.emby.wtf
+  - DOMAIN-SUFFIX,pub2back5.emby.wtf
+  - DOMAIN-SUFFIX,pub2back6.emby.wtf
+  - DOMAIN-SUFFIX,pub2back7.emby.wtf
+  - DOMAIN-SUFFIX,pub2jp.emby.wtf
+  - DOMAIN-SUFFIX,pub2jp.emby.wtf
+  - DOMAIN-SUFFIX,pub2ntt.emby.wtf
+  - DOMAIN-SUFFIX,pub2sgp.emby.wtf
+  - DOMAIN-SUFFIX,pub2cf.emby.wtf
+  - DOMAIN-SUFFIX,pub3.emby.wtf
+  - DOMAIN-SUFFIX,pub3.emby.wtf 
+  - DOMAIN-SUFFIX,pub3back1.emby.wtf
+  - DOMAIN-SUFFIX,pub3back2.emby.wtf
+  - DOMAIN-SUFFIX,pub3back3.emby.wtf
+  - DOMAIN-SUFFIX,pub3back4.emby.wtf
+  - DOMAIN-SUFFIX,pub3back5.emby.wtf
+  - DOMAIN-SUFFIX,pub3back6.emby.wtf
+  - DOMAIN-SUFFIX,pub3back7.emby.wtf
+  - DOMAIN-SUFFIX,pub3back1.emby.wtf
+  - DOMAIN-SUFFIX,pub3back2.emby.wtf
+  - DOMAIN-SUFFIX,pub3back3.emby.wtf
+  - DOMAIN-SUFFIX,pub3back4.emby.wtf
+  - DOMAIN-SUFFIX,pub3back5.emby.wtf
+  - DOMAIN-SUFFIX,pub3back6.emby.wtf
+  - DOMAIN-SUFFIX,pub3back7.emby.wtf
+  - DOMAIN-SUFFIX,pub3jp.emby.wtf
+  - DOMAIN-SUFFIX,pub3jp.emby.wtf
+  - DOMAIN-SUFFIX,pub3ntt.emby.wtf
+  - DOMAIN-SUFFIX,pub3sgp.emby.wtf
+  - DOMAIN-SUFFIX,pub3cf.emby.wtf
+  - DOMAIN-SUFFIX,servers.xeton.dev
+  - DOMAIN-SUFFIX,emby.plusmedia.site
+  - DOMAIN-SUFFIX,emby-cf.plusmedia.site
+  - DOMAIN-SUFFIX,movie.xeton.dev
+  - DOMAIN-SUFFIX,jellyfin.xeton.dev
+  - DOMAIN-SUFFIX,emby.xeton.dev
+  - DOMAIN-SUFFIX,emby.cjpc.cc
+  - DOMAIN-SUFFIX,cristiamo.xyz
+  - DOMAIN-SUFFIX,emby.flowercloud.yt
+  - DOMAIN-SUFFIX,emby.prprcloud.com
+  - DOMAIN-SUFFIX,prpr.kyarucloud.moe
+  - DOMAIN-SUFFIX,emby.otakudrive.life
+  - DOMAIN-SUFFIX,emby2.otakudrive.life
+  - DOMAIN-SUFFIX,jmsooo.com
+  - DOMAIN-SUFFIX,cf.jmsooo.com
+  - DOMAIN-SUFFIX,ha.jmsooo.com
+  - DOMAIN-SUFFIX,sg1.jmsooo.com
+  - DOMAIN-SUFFIX,sg2.jmsooo.com
+  - DOMAIN-SUFFIX,usa1.jmsooo.com
+  - DOMAIN-SUFFIX,usa2.jmsooo.com
+  - DOMAIN-SUFFIX,pub1.emby.wtf
+  - DOMAIN-SUFFIX,pub2.emby.wtf
+  - DOMAIN-SUFFIX,pub3.emby.wtf
+  - DOMAIN-SUFFIX,pub4.emby.wtf
+  - DOMAIN-SUFFIX,misty.ltd
+  - DOMAIN-SUFFIX,pornemby.club
+  - DOMAIN-SUFFIX,cf.odysseyplus.site
+  - DOMAIN-SUFFIX,sg.odysseyplus.site
+  - DOMAIN-SUFFIX,us.odysseyplus.site
+  - DOMAIN-SUFFIX,kr.odysseyplus.site
+  - DOMAIN-SUFFIX,jp.odysseyplus.site
+  - DOMAIN-SUFFIX,jp2.odysseyplus.site
+  - DOMAIN-SUFFIX,ru.odysseyplus.site
+  - DOMAIN-SUFFIX,cf.misakaf.org
+  - DOMAIN-SUFFIX,cf2.misakaf.org
+  - DOMAIN-SUFFIX,cf3.misakaf.org
+  - DOMAIN-SUFFIX,aaa.ax
+  - DOMAIN-SUFFIX,emby.plusmedia.site
+  - DOMAIN-SUFFIX,emby-cf.plusmedia.site
+  - DOMAIN-SUFFIX,emby.xeton.dev
+  - DOMAIN-SUFFIX,jellyfin.xeton.dev
+  - DOMAIN-SUFFIX,movie.xeton.dev
+  - DOMAIN-SUFFIX,servers.xeton.dev
+  - DOMAIN-SUFFIX,203.198.94.90
+  - DOMAIN-SUFFIX,df.poloemby.xyz
+  - DOMAIN-SUFFIX,cu.poloemby.xyz
+  - DOMAIN-SUFFIX,happy.poloemby.xyz
+  - DOMAIN-SUFFIX,jp.pololine.ml
+  - DOMAIN-SUFFIX,cmi.pololine.ml
+  - DOMAIN-SUFFIX,sp.pololine.ml
+  - DOMAIN-SUFFIX,cc.ccemby.tk
+  - DOMAIN-SUFFIX,misty.ltd
+  - DOMAIN-SUFFIX,emby.texon.one
+  - DOMAIN-SUFFIX,21s.casacam.net
+  - DOMAIN-SUFFIX,embyplus.org
+  - DOMAIN-SUFFIX,emby.lzlz.cc
+  - DOMAIN-SUFFIX,embyplus.org
+  - DOMAIN-SUFFIX,tagemby.embylianmeng.com
+  - DOMAIN-SUFFIX,s2.amazing910.top
+  - DOMAIN-SUFFIX,cf.studyfun.live
+  - DOMAIN-SUFFIX,zz.studyfun.live
+  - DOMAIN-SUFFIX,4837.studyfun.live
+  - DOMAIN-SUFFIX,9929.studyfun.live
+  - DOMAIN-SUFFIX,av.happyav.eu.org
+  - IP-CIDR,161.97.148.156/24,no-resolve
+  - DOMAIN-SUFFIX,emby.cristiamo.top
