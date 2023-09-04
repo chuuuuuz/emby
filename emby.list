@@ -13,8 +13,7 @@ DOMAIN-SUFFIX,cdn.studyfun.live
 DOMAIN-SUFFIX,cdn1.studyfun.live
 DOMAIN-SUFFIX,202.61.255.248
 DOMAIN-SUFFIX,embyplus.org
-DOMAIN-SUFFIX,cf3.misakaf.org
-DOMAIN-SUFFIX,cf2.misakaf.org
+DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,21s.casacam.net
 DOMAIN-SUFFIX,emby.wiri.tk
 DOMAIN-SUFFIX,emby.misakaf.org
@@ -26,3 +25,4 @@ DOMAIN-SUFFIX,dx1.carryz.net
 DOMAIN-SUFFIX,gd.9521732.xyz
 DOMAIN-SUFFIX,bili-pro.bili.rip
 DOMAIN-SUFFIX,emby.texon.io
+DOMAIN-SUFFIX,push-kr.misakaf.org
