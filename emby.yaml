@@ -30,3 +30,4 @@ payload:
 - DOMAIN-KEYWORD,emby.pilipiliultra.top
 - DOMAIN-KEYWORD,film.reddust.link
 - DOMAIN-KEYWORD,stream.ntrrr.top
+- IP-CIDR,167.235.116.53
