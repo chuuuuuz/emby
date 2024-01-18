@@ -29,5 +29,5 @@ DOMAIN-SUFFIX,push-kr.misakaf.org
 DOMAIN-SUFFIX,emby.pilipiliultra.top
 DOMAIN-SUFFIX,film.reddust.link
 DOMAIN-SUFFIX,stream.ntrrr.top
-IP-CIDR,167.235.116.53/32,no-resolve
+DOMAIN-SUFFIX,167.235.116.53
 PROCESS-NAME,electron.exe
