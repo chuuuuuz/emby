@@ -11,10 +11,8 @@ DOMAIN-SUFFIX,misty.ltd
 DOMAIN-SUFFIX,cf.studyfun.live
 DOMAIN-SUFFIX,cdn.studyfun.live
 DOMAIN-SUFFIX,cdn1.studyfun.live
-DOMAIN-SUFFIX,202.61.255.248
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN-SUFFIX,misakaf.org
-DOMAIN-SUFFIX,21s.casacam.net
 DOMAIN-SUFFIX,emby.wiri.tk
 DOMAIN-SUFFIX,emby.misakaf.org
 DOMAIN-SUFFIX,cc.ccemby.tk
@@ -29,5 +27,3 @@ DOMAIN-SUFFIX,push-kr.misakaf.org
 DOMAIN-SUFFIX,emby.pilipiliultra.top
 DOMAIN-SUFFIX,film.reddust.link
 DOMAIN-SUFFIX,stream.ntrrr.top
-DOMAIN-SUFFIX,167.235.116.53
-PROCESS-NAME,electron.exe
