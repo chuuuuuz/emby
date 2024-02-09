@@ -9,11 +9,7 @@ payload:
 - DOMAIN-KEYWORD,pub4.emby.wtf
 - DOMAIN-KEYWORD,bili.bili.rip
 - DOMAIN-KEYWORD,usa.bili.rip
-- DOMAIN-KEYWORD,misty.ltd
-- DOMAIN-KEYWORD,cf.studyfun.live
-- DOMAIN-KEYWORD,cdn.studyfun.live
-- DOMAIN-KEYWORD,cdn1.studyfun.live
-- DOMAIN-KEYWORD,202.61.255.248
+- DOMAIN-KEYWORD,misty.cx
 - DOMAIN-KEYWORD,embyplus.org
 - DOMAIN-KEYWORD,21s.casacam.net
 - DOMAIN-KEYWORD,emby.wiri.tk
@@ -25,9 +21,7 @@ payload:
 - DOMAIN-KEYWORD,dx1.carryz.net
 - DOMAIN-KEYWORD,gd.9521732.xyz
 - DOMAIN-KEYWORD,bili-pro.bili.rip
-- DOMAIN-KEYWORD,emby.texon.io
 - DOMAIN-KEYWORD,push-kr.misakaf.org
 - DOMAIN-KEYWORD,emby.pilipiliultra.top
 - DOMAIN-KEYWORD,film.reddust.link
 - DOMAIN-KEYWORD,stream.ntrrr.top
-- DOMAIN-KEYWORD,167.235.116.53
