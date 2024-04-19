@@ -27,7 +27,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 ;设置分组标志位
 custom_proxy_group=🌐 谷歌服务`select`[]DIRECT`.*
 custom_proxy_group=📱 Telegram`select`.*
-custom_proxy_group=📹 YouTube`select`.*
+custom_proxy_group=📺 Youtube`select`.*
 custom_proxy_group=📺 Emby`select`[]DIRECT`.*
 custom_proxy_group=📺 Netflix`select`.*
 custom_proxy_group=📺 OpenAi`select`.*
