@@ -26,17 +26,17 @@ ruleset=🐟 漏网之鱼,[]FINAL
 ;规则标
 ;设置分组标志位
 custom_proxy_group=🌐 谷歌服务`select`[]DIRECT`.*
-custom_proxy_group=📱 Telegram`select`[]🚀 节点选择`.*
-custom_proxy_group=📹 YouTube`select`[]🚀 节点选择`.*
+custom_proxy_group=📱 Telegram`select`.*
+custom_proxy_group=📹 YouTube`select`.*
 custom_proxy_group=📺 Emby`select`[]DIRECT`.*
-custom_proxy_group=📺 Netflix`select`[]🚀 节点选择`.*
-custom_proxy_group=📺 OpenAi`select`[]🚀 节点选择`.*
-custom_proxy_group=🌐 微软服务`select`[]DIRECT`[]🚀 节点选择`.*
-custom_proxy_group=🌐 苹果服务`select`[]DIRECT`[]🚀 节点选择`.*
-custom_proxy_group=🌐 测速服务`select`[]DIRECT`[]🚀 节点选择`.*
-custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]🚀 节点选择`.*
-custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`.*
-custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]DIRECT`.*
+custom_proxy_group=📺 Netflix`select`.*
+custom_proxy_group=📺 OpenAi`select`.*
+custom_proxy_group=🌐 微软服务`select`[]DIRECT`.*
+custom_proxy_group=🌐 苹果服务`select`[]DIRECT`.*
+custom_proxy_group=🌐 测速服务`select`[]DIRECT`.*
+custom_proxy_group=🎮 游戏平台`select`[]DIRECT`.*
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`.*
+custom_proxy_group=🐟 漏网之鱼`select`[]DIRECT`.*
 ;设置分组标志位
 enable_rule_generator=true
 overwrite_original_rules=true
