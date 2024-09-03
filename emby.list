@@ -1,4 +1,3 @@
-DOMAIN,emby.enjoyit.eu.org
 #终点站
 DOMAIN-SUFFIX,pub1.emby.wtf
 DOMAIN-SUFFIX,pub2.emby.wtf
@@ -20,8 +19,7 @@ DOMAIN-SUFFIX,dl.carryz.net
 #Hxd
 DOMAIN-SUFFIX,hxd.as174.com
 DOMAIN-SUFFIX,cf.bili.rip
-#Misty
-DOMAIN-SUFFIX,misty.cx
+DOMAIN-SUFFIX,emby.as174.com
 #TreeDiagram
 DOMAIN-SUFFIX,789.123456.al 
 #纸片人
@@ -31,5 +29,3 @@ DOMAIN-SUFFIX,gd.9521732.xyz
 DOMAIN-SUFFIX,emby.pilipiliultra.top
 DOMAIN-SUFFIX,emby.pilipiliultra.com
 DOMAIN-SUFFIX,stream_pilipili.misakaf.org
-DOMAIN-SUFFIX,media.91ai.de
-DOMAIN-SUFFIX,robo.91ai.de
