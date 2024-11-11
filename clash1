@@ -18,10 +18,10 @@ ruleset=🌐 谷歌服务,https://raw.githubusercontent.com/flyhigherpi/merlincl
 ruleset=🌐 谷歌服务,https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rules/ACL4SSR/Clash/Other/GoogleIP.list
 ruleset=🌐 谷歌服务,https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rules/ACL4SSR/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=🌐 谷歌服务,https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rules/ACL4SSR/Clash/Ruleset/GoogleFCM.list
-;游戏下载
-ruleset=🎮 游戏下载,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
 ;游戏直连
 ruleset=⚔️ 游戏直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Battle/Battle.list
+;游戏下载
+ruleset=🎮 游戏下载,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
 ;游戏平台
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list
 ;微软服务
@@ -53,8 +53,8 @@ custom_proxy_group=🤖 OpenAI`select`[]🚀 节点选择`.*
 custom_proxy_group=🎥 Netflix`select`[]🚀 节点选择`.*
 custom_proxy_group=🎬 Emby`select`[]🚀 节点选择`[]DIRECT`.*
 custom_proxy_group=🌐 谷歌服务`select`[]🚀 节点选择`[]DIRECT`.*
-custom_proxy_group=🎮 游戏下载`select`[]DIRECT`[]🚀 节点选择`.*
 custom_proxy_group=⚔️ 游戏直连`select`[]DIRECT`[]🚀 节点选择`.*
+custom_proxy_group=🎮 游戏下载`select`[]DIRECT`[]🚀 节点选择`.*
 custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]🚀 节点选择`.*
 custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]🚀 节点选择`.*
 custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择`.*
