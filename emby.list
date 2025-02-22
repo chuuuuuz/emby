@@ -15,8 +15,8 @@ DOMAIN-SUFFIX,emby.as174.de
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN-SUFFIX,gd.9521732.xyz
 #PiliPili
-DOMAIN-SUFFIX,pilipili.club
-DOMAIN-SUFFIX,streamer.pilipiliultra.com
+DOMAIN-SUFFIX,emby-direct.pilipiliultra.com
+DOMAIN-SUFFIX,emby.pilipiliultra.com
 #临时
 DOMAIN-SUFFIX,tanhuatv.site
 DOMAIN-SUFFIX,emby.chuuu.icu
