@@ -1,5 +1,4 @@
 (function () {
-  // 1. 动态注入 CSS 样式（改成 Nezha 毛玻璃风格）
   const style = document.createElement("style");
   style.textContent = `
     #ip-bar {
@@ -18,7 +17,7 @@
       pointer-events: none;
     }
 
-    /* ===== Nezha 毛玻璃胶囊主体 ===== */
+    /* ===== 完全对齐 Nezha 毛玻璃参数 ===== */
     .ip-inner {
       position: relative;
       display: inline-flex;
@@ -27,13 +26,11 @@
       padding: 9px 16px;
       border-radius: 999px;
 
-      /* 毛玻璃核心（与你前面玻璃卡片同路数） */
       background: rgba(17, 25, 40, 0.55);
       border: 1px solid rgba(255, 255, 255, 0.18);
       backdrop-filter: blur(14px) saturate(160%);
       -webkit-backdrop-filter: blur(14px) saturate(160%);
 
-      /* 轻柔阴影 */
       box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.28),
         0 0 0 1px rgba(255, 255, 255, 0.06) inset;
@@ -42,7 +39,7 @@
       transform: translateZ(0);
     }
 
-    /* 流光边框（比你原来的彩虹更“Nezha 玻璃感”，不刺眼） */
+    /* ===== 流光边框：完全同步动画参数 ===== */
     .ip-inner::before {
       content: "";
       position: absolute;
@@ -52,12 +49,12 @@
 
       background: linear-gradient(
         120deg,
-        rgba(255, 255, 255, 0.22),
-        rgba(120, 170, 255, 0.35),
-        rgba(255, 255, 255, 0.22)
+        rgba(255,255,255,0.22),
+        rgba(120,170,255,0.35),
+        rgba(255,255,255,0.22)
       );
       background-size: 300% 300%;
-      animation: ipBorderFlow 10s linear infinite;
+      animation: nezhaBorderFlow 10s linear infinite;
 
       -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
       -webkit-mask-composite: xor;
@@ -67,13 +64,7 @@
       opacity: 0.9;
     }
 
-    @keyframes ipBorderFlow {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-
-    /* Hover 扫光（你前面那种玻璃扫光感） */
+    /* ===== Hover 扫光：同款节奏 ===== */
     .ip-inner::after {
       content: "";
       position: absolute;
@@ -85,9 +76,9 @@
 
       background: linear-gradient(
         to right,
-        rgba(255, 255, 255, 0),
-        rgba(255, 255, 255, 0.18),
-        rgba(255, 255, 255, 0)
+        rgba(255,255,255,0),
+        rgba(255,255,255,0.18),
+        rgba(255,255,255,0)
       );
       opacity: 0;
       transition: opacity .25s ease;
@@ -102,7 +93,7 @@
       100% { left: 140%; }
     }
 
-    /* 图标：改成更“玻璃 UI”一点的点状指示 */
+    /* ===== 小蓝光状态点（统一冷色调）===== */
     .ip-icon {
       width: 10px;
       height: 10px;
@@ -111,22 +102,17 @@
 
       background: rgba(130, 190, 255, 0.85);
       box-shadow:
-        0 0 0 2px rgba(255, 255, 255, 0.18),
-        0 0 14px rgba(130, 190, 255, 0.55);
+        0 0 0 2px rgba(255,255,255,0.18),
+        0 0 14px rgba(130,190,255,0.55);
     }
 
-    /* 文本：改成更干净的亮白/微发光，而不是彩虹渐变 */
     .ip-text {
       font-size: 13.5px;
       white-space: nowrap;
       font-weight: 600;
       letter-spacing: 0.2px;
-
-      color: rgba(255, 255, 255, 0.92);
+      color: rgba(255,255,255,0.92);
       text-shadow: 0 2px 10px rgba(0,0,0,0.25);
-    }
-    .ip-text span {
-      color: rgba(255, 255, 255, 0.92);
     }
 
     @media (max-width: 600px) {
@@ -136,28 +122,29 @@
   `;
   document.head.appendChild(style);
 
-  // 2. 逻辑部分（原样保留）
+  /* ===== 下面逻辑保持不变 ===== */
+
   function isIPv4(ip) {
     return ip && ip.includes(".") && !ip.includes(":");
   }
 
   function getFromIpapi() {
     return fetch("https://ipapi.co/json/")
-      .then((r) => r.json())
-      .then((d) => ({
+      .then(r => r.json())
+      .then(d => ({
         ip: d.ip || "",
         country: d.country_name || "",
-        city: d.city || "",
+        city: d.city || ""
       }));
   }
 
   function getFromIpinfo() {
     return fetch("https://ipinfo.io/json")
-      .then((r) => r.json())
-      .then((d) => ({
+      .then(r => r.json())
+      .then(d => ({
         ip: d.ip || "",
         country: d.country || "",
-        city: d.city || d.region || "",
+        city: d.city || d.region || ""
       }));
   }
 
@@ -179,35 +166,33 @@
 
     getFromIpapi()
       .catch(getFromIpinfo)
-      .then((res) => {
+      .then(res => {
         const ip = res.ip || "";
         const country = res.country || "";
         const city = res.city || "";
-        const loc =
-          country && city && country !== city ? `${country} · ${city}` : (country || city);
+        const loc = (country && city && country !== city)
+          ? `${country} · ${city}`
+          : (country || city);
 
-        if (isIPv4(ip)) el.textContent = loc ? `Your IP: ${ip} — ${loc}` : `Your IP: ${ip}`;
-        else el.textContent = loc ? `IPv6 network — ${loc}` : `IPv6 network`;
+        if (isIPv4(ip))
+          el.textContent = loc ? `Your IP: ${ip} — ${loc}` : `Your IP: ${ip}`;
+        else
+          el.textContent = loc ? `IPv6 network — ${loc}` : `IPv6 network`;
       })
-      .catch(() => (el.textContent = "Failed to get IP"));
+      .catch(() => el.textContent = "Failed to get IP");
 
-    // 滚动隐藏逻辑
     let lastScrollTop = 0;
-    window.addEventListener(
-      "scroll",
-      function () {
-        const bar = document.getElementById("ip-bar");
-        if (!bar) return;
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        if (scrollTop > lastScrollTop && scrollTop > 50) {
-          bar.classList.add("ip-hide");
-        } else {
-          bar.classList.remove("ip-hide");
-        }
-        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-      },
-      { passive: true }
-    );
+    window.addEventListener("scroll", function() {
+      const bar = document.getElementById("ip-bar");
+      if (!bar) return;
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop > lastScrollTop && scrollTop > 50) {
+        bar.classList.add("ip-hide");
+      } else {
+        bar.classList.remove("ip-hide");
+      }
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }, { passive: true });
   }
 
   if (document.readyState === "loading") {
