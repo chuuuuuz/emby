@@ -2,9 +2,6 @@
 DOMAIN-SUFFIX,c.emby.wtf
 #SYN
 DOMAIN-SUFFIX,stream.ntrrr.top
-#CC
-DOMAIN-SUFFIX,carryz.net
-DOMAIN-SUFFIX,cc.coemn.com
 #Hxd
 DOMAIN-SUFFIX,hxd.as174.de
 DOMAIN-SUFFIX,emby.as174.de
@@ -13,11 +10,6 @@ DOMAIN-SUFFIX,hxdemby.com
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN-SUFFIX,9521732.xyz
 #临时
-DOMAIN-SUFFIX,okemby.org
 DOMAIN-SUFFIX,rfc.uhdnow.com
 DOMAIN-SUFFIX,lite.cn2gias.uk
-DOMAIN-SUFFIX,link00.okemby.org
-DOMAIN-SUFFIX,hgemby.qzz.io
-DOMAIN-SUFFIX,my.microsoftpersonalcontent.com
-DOMAIN-SUFFIX,bb.emby.edu.kg
-DOMAIN-SUFFIX,javstrm.emby-59f.workers.dev
+DOMAIN-SUFFIX,kitiemby.com
